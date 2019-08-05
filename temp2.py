@@ -8,7 +8,7 @@ Spyderエディタ
 from selenium import webdriver	
 
 # chromedriverのPATHを指定(herokuにおけるパスを指定しています)
-    driver_path = '/app/.chromedriver/bin/chromedriver'
+    driver_path = '/app/.apt/usr/bin/google-chrome'
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     #driverに設定 ※optionsを指定しないとheadlessにならないので注意
